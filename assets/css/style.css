@@ -1,0 +1,25 @@
+#page-header {
+    background: linear-gradient(45deg, rgb(0, 89, 255), rgb(19, 0, 112), rgb(47, 1, 90));
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#page-header h1 {
+    color: white;
+    font-weight: bolder;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+#current-weather-container {
+    border: solid black;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+#future-weather-box {
+    background: radial-gradient(rgb(1, 65, 184), rgb(0, 37, 107));
+color: white;
+}
