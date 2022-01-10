@@ -41,7 +41,7 @@ var formSubmitHandler = function (event) {
 }
 
 var getCoordinates = function (city) {
-    fetch("http://api.openweathermap.org/geo/1.0/direct?q=" + city + "&limit=1&appid=e4105c0f0de9939b70a043b6810d01fe")
+    fetch("https://api.openweathermap.org/geo/1.0/direct?q=" + city + "&limit=1&appid=e4105c0f0de9939b70a043b6810d01fe")
         .then(function (response) {
             //request was successful
             if (response.ok) {
